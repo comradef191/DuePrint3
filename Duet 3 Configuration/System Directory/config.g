@@ -1,0 +1,160 @@
+; Default config.g template for DuetPi
+; Replace this with a proper configuration file (e.g from https://configtool.reprapfirmware.org)
+
+; Display initial welcome message
+;M291 P"Please go to <a href=""https://www.duet3d.com/StartHere"" target=""_blank"">this</a> page for further instructions on how to set it up." R"Welcome to your new Duet 3!" S1 T0
+
+; Enable network
+if {network.interfaces[0].type = "ethernet"}
+    M552 P192.168.100.56 S1
+else
+    M552 I1 S1
+
+M552 I1 S1                            ; enable wifi
+
+G4 S5                                 ;wait for expansion boards to start
+
+; Drives
+M569 P0 S1                            ;physical drive 0 goes backwards, X-Axis
+M569 P1 S0                            ;physical drive 1 goes forwards, Y-Axis
+M569 P2 S1                            ;physical drive 2 goes forwards, Z-Axis
+M569 P124.0 S0 T0:0:0:0               ;external driver on sammy
+M584 X0 Y1 Z2 E124.0                  ;set drive mapping
+M350 X16 Y16 Z16 E16 I1               ;configure microstepping with interpolation
+M92 X53.33 Y134 Z629.864 E3230.77     ;set steps per mm was 1011.99 then 1594.6, then 642.61 
+M566 X600 Y600 Z60 E3000              ;set jerk
+M203 X30000 Y18000 Z1200 E1800.00      ;set max speeds (mm/min)
+M201 X2500 Y3500 Z2000 E3000            ;set max accelerations (mm/s^2)
+M201.1 X750 Y750 Z2000 E3000            ;max special acceleration move (homing)
+M906 X1800 Y2600 Z2600 I30            ;set motor currents (mA) and motor idle percent
+M84 S30                               ;set idle timeout
+
+M208 X-138.3 Y-137.5 Z-2 S1           ;set axis minima
+M208 X160.4 Y178.5 Z325.2 S0              ;set axis maxima
+; Toggle nozzle min - -163.2 , 206 max
+; X EOT toggles at 181.2
+; Y EOT at 182.4
+;purge bucket near middle - x162.5, y155.5
+
+;z probe left toggle -136.5
+;z probe right toggle 197.5
+
+;from build plate center, model (right) offset x=+20.8 (too far right), support is +40.8
+;from build plate center, Y offset = -23 (too far forward)
+
+;Z bottom (EOT) 325.1
+
+
+
+;Endstops
+
+M574 X1 S1 P"!io0.in"                 ; X home limit (low side)
+M574 Y1 S1 P"!io1.in"                 ; Y home limit (low side, toward front of printer
+M574 Z2 S1 P"!io6.in"                   ; assign Z EOT to x endstop on high side
+
+
+; Z-Probe
+M558 P5 H5 F1200:200 T18000 A3 C"!io2.in" ; Z probe, set dive height, probe speed and travel speed
+;G31 P1000 X-46 Y-74 Z0.896
+;G31 P1000 X-24 Y-73 Z1.365
+G31 P1000 X24 Y73 Z1.9                    ;Increase value to bring it closer to the bed, decrease to move it away
+;G31 P1000 X24 Y96 Z0.896                          ; set Z probe trigger value, offset and trigger height
+;M557 X-135:135 Y-135:65 P5:5          ; define mesh grid. The whole bead cannot be probed due to the position of the probe.
+M557 X-134:140 Y-127:146.82 P2:2          ; define mesh grid. The whole bead cannot be probed due to the position of the probe.
+
+; Head Blower Fan
+M950 P0 C"!out4"
+M42 P0 S0                             ; enable blower
+
+; Extruder Motor Enable
+M950 P1 C"!out5"
+M42 P1 S0
+
+; Touch Power Enable
+M950 P2 C"!out6"
+M42 P2 S0
+
+; Door Enable
+M950 P3 C"io6.out"
+M42 P3 S0
+
+; LED Lights Enable
+M950 P4 C"io2.out"
+M42 P4 S1                             ;S1 to turn on!
+
+; Gecko Reset
+M950 P5 C"io0.out"
+M42 P5 S0
+
+; Thermocouples
+M308 S0 A"Chamber Test" P"temp0" Y"linear-analog" F0 B-42 C113
+M308 S1 A"Model Test" P"temp1" Y"linear-analog" F0 B12.5 C328
+M308 S2 A"Support Test" P"temp2" Y"linear-analog" F0 B12.5 C328
+
+; Heaters
+M140 H-1                              ;Disable bed heater
+M950 H0 C"!out7" T0                   ; chamber, sensor 0
+M141 H0                               ; map chamber to heater 0
+M143 H0 S85                           ; set temperature limit for heater 0 to 85C
+M570 H0 P60 T10                       ; Increase fault delay to 30s, decrease temperature fault to 10c
+M950 H1 C"!out8" T1                   ; model, sensor 1
+M143 H1 S320
+M570 H1 P30                           ; set fault time delay to 30s for heater 1
+M950 H2 C"!out9" T2                   ; support, sensor 2
+M143 H2 S320                          ; set temperature limit for heater 1 to 320C
+M570 H2 P30                           ; set fault time delay to 30s for heater 2
+; Tools
+M563 P0 S"Model" D0 H1                ; define tool 0
+G10 P0 X0 Y0 Z0                       ; set tool 0 axis offsets
+G10 P0 R0 S0                          ; set initial tool 0 active and standby temperatures
+
+M563 P1 S"Support" D0 H2              ; define tool 1
+G10 P1 X-20 Y0 Z-0.1                     ; set tool 1 axis offsets
+G10 P1 R0 S0                          ; set initial tool 1 active and standby temperatures
+
+
+
+; Gecko Error In
+M950 J0 C"124.pa04"                   ;gecko error in
+
+; Head Thermostat Status
+M950 J1 C"124.pa05"
+
+; Door In
+M950 J2 C"124.pa06"
+
+; Print Head Support Toggle
+M950 J3 C"124.pa07"
+
+; Print Head Model Toggle
+M950 J4 C"124.pa19"
+
+; X-axis EOT
+M950 J5 C"!io3.in"
+
+; Y-axis EOT
+M950 J6 C"!io4.in"
+
+; Z-axis Home
+M950 J7 C"!io5.in"
+
+; Z-axis EOT
+;M950 J8 C"!io6.in"
+
+; Print Head Temp Alarm
+M950 J9 C"!io7.in"
+
+; Chamber Temp Alarm
+M950 J10 C"!io8.in"
+
+
+;M581 Tx P5:6:7:8
+
+M955 P120.0 I01
+M501                                  ;config g
+M302 S280 R280
+M572 D0 S.061
+M593 P"zvdd" F43
+M207 P0 S0.3 F1800
+M207 P1 S0.3 F1800
+M98 P"globals.g"
