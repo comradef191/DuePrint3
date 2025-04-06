@@ -48,7 +48,7 @@ At present, the implementation focuses on the Dimension 1200es printers (the imp
 |6HC OUT_5 V_OUTLC5 & out5|MOTOR ENA|`M950 P1 C""!out5"" ; Extruder Motor` - `M42 P1 S0 ; motor off`|
 |6HC OUT_4 V_OUTLC4 & out4|BLOWER ENA|`M950 P0 C""!out4"" ; Head Blower Fan` - `M42 P0 S0 ; enable blower`|
 
-The 6HC directly drives the X, Y, and Z stepper motors (vs. controlling them through the Stratasys PDB). The 6HC, unlike the Duet2 (and Duex boards) does not natively have STEP/DIR pins used to emit step and direction pulses. Instead, a Sammy-C21 ([running RepRapFirmware](https://docs.duet3d.com/Duet3D_hardware/Duet_3_family/Using_the_Sammy-C21_development_board_with_Duet_3)) is used to emit step and direction pulses to a STM32 Nucelo-64, which in turn is running [SimpleDCMotor](https://github.com/simplefoc/Arduino-FOC-dcmotor) to control the extruder's closed loop DC motor. Note that this design was initially setup to use a Geckodrive G320x, however early into commisioning, I burnt up a few series resistors and a 74AC14 on the PDB. The Nucleo-64 with SimpleDCMotor is a much better solution, with a significantly lower cost.
+The 6HC directly drives the X, Y, and Z stepper motors (vs. controlling them through the Stratasys PDB). The 6HC, unlike the Duet2 (and Duex boards) does not natively have STEP/DIR pins used to emit step and direction pulses. Instead, a Sammy-C21 ([running RepRapFirmware](https://docs.duet3d.com/Duet3D_hardware/Duet_3_family/Using_the_Sammy-C21_development_board_with_Duet_3)) is used to emit step and direction pulses to a STM32 Nucelo-64, which in turn is running [SimpleDCMotor](https://github.com/simplefoc/Arduino-FOC-dcmotor) to control the extruder's closed loop DC motor. Note that this design was initially setup to use a Geckodrive G320x, however early into commissioning, I burnt up a few series resistors and a 74AC14 on the PDB. The Nucleo-64 with SimpleDCMotor is a much better solution, with a significantly lower cost.
 
 ## Materials
 [A detailed BOM can be found here](https://github.com/jcwebber93/DuePrint3/blob/main/DuePrint3%20BOM.xlsx), with the approximate cost being ~$500 (60% of this is Duet3D 6HC and Sammy-C21).
@@ -63,16 +63,16 @@ The 6HC directly drives the X, Y, and Z stepper motors (vs. controlling them thr
 > Do not connect connectors `P13`, `P20`, and `P26` (Model heater, support heater, chamber heater) to the 6HC until after the model, support, and chamber thermocouple functionality has been validated
 
 ## Sammy-C21 Prep
-If using a Sammy-C21 pruchased with the preloaded Duet3D bootloader, no special programming is needed. J100 needs to be unbridged, as 5V is supplied to pins 15 and 32 (V33, for 5V logic, and VCC).
+If using a Sammy-C21 purchased with the preloaded Duet3D bootloader, no special programming is needed. J100 needs to be unbridged, as 5V is supplied to pins 15 and 32 (V33, for 5V logic, and VCC).
 
 <img src="https://github.com/user-attachments/assets/43eb749a-145f-4268-8572-ef63ae50c817" width="300">
 
-## Inteface Board Prep
+## Interface Board Prep
 If the Interface Board (w/Sammy-C21) is the only CAN-FD device, aside from the Duet 3 6HC, place a 2-socket jumper here to enable the CAN-FD termination resistor.
 
 <img src="https://github.com/user-attachments/assets/87da6098-6184-4fa2-a2c0-e8d032940f3f" width="700">
 
-J4 connectes to the 6HC. J5 (marking suspiciously missing on silkscreen) can be used with additional expansion boards (such as a Duet 3 SZP on the print head, could be used as an accelerometer or for bed scanning), provided the CAN-FD bus is therminated on the additional board.
+J4 connects to the 6HC. J5 (marking suspiciously missing on silkscreen) can be used with additional expansion boards (such as a Duet 3 SZP on the print head, could be used as an accelerometer or for bed scanning), provided the CAN-FD bus is terminated on the additional board.
 
 ## RepRapFirmware Prep
 At present, the 6HC and Sammy-C21 are running 3.6.0-rc.1 (April 2025). [Configuration files are located here](https://github.com/jcwebber93/DuePrint3/tree/main/Duet%203%20Configuration/System%20Directory), and [Macros are located here.](https://github.com/jcwebber93/DuePrint3/tree/main/Duet%203%20Configuration/Macros%20Directory)
