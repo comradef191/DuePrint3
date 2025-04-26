@@ -7367,6 +7367,12 @@
 		(uuid "2889a59a-253d-473d-bdf5-3668eed41941")
 	)
 	(junction
+		(at 50.165 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c180403-cc5a-4b2d-a073-fe2492c18820")
+	)
+	(junction
 		(at 120.015 249.555)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7389,6 +7395,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3be63e90-110d-45db-b8de-89a441779f21")
+	)
+	(junction
+		(at 50.165 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ceb8ef9-dbd3-416d-948f-f36670914f08")
 	)
 	(junction
 		(at 60.325 204.47)
@@ -7505,7 +7517,7 @@
 		(uuid "82d7b204-a07d-490f-b989-c326fff4dd86")
 	)
 	(junction
-		(at 235.585 78.105)
+		(at 234.95 78.105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83728dfa-7c89-453c-b575-97f06f5f5a88")
@@ -7538,7 +7550,7 @@
 		(at 50.165 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a41804f2-e91d-4dc8-86fd-f496dc2d84bc")
+		(uuid "a12d8145-7422-415a-8a94-09033f618fa8")
 	)
 	(junction
 		(at 50.165 43.815)
@@ -7643,12 +7655,6 @@
 		(uuid "eb129e67-26cd-4131-b751-a96676bc1c76")
 	)
 	(junction
-		(at 50.165 69.215)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee32e2b4-4ec6-4aef-87a2-db554d61c697")
-	)
-	(junction
 		(at 117.475 239.395)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7659,12 +7665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeed004d-0eb4-4fc1-9a33-ab039bb14509")
-	)
-	(junction
-		(at 50.165 71.755)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f39d8927-584e-436e-bd77-74c0f5351f55")
 	)
 	(junction
 		(at 19.685 109.22)
@@ -8080,16 +8080,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 69.215) (xy 50.165 71.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e46a274-3bff-49fa-9a21-e425c7d2190e")
-	)
-	(wire
-		(pts
 			(xy 65.405 173.355) (xy 67.945 173.355)
 		)
 		(stroke
@@ -8270,6 +8260,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.165 71.755) (xy 50.165 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f437c12-0578-46eb-8eeb-c5d497e2cbd9")
+	)
+	(wire
+		(pts
 			(xy 37.465 109.22) (xy 37.465 111.76)
 		)
 		(stroke
@@ -8360,16 +8360,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 70.485) (xy 242.57 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c97f0ca-b8d9-49de-87e1-5fb7542aa2bf")
-	)
-	(wire
-		(pts
 			(xy 67.945 155.5547) (xy 67.945 155.575)
 		)
 		(stroke
@@ -8420,6 +8410,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.165 56.515) (xy 50.165 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3168216c-0fc3-4c96-81c2-643f8c34a0a8")
+	)
+	(wire
+		(pts
+			(xy 50.165 69.215) (xy 50.165 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ab07bf-d62c-4bb2-953b-c653f1bf82c4")
+	)
+	(wire
+		(pts
 			(xy 34.925 109.22) (xy 37.465 109.22)
 		)
 		(stroke
@@ -8450,7 +8460,7 @@
 	)
 	(wire
 		(pts
-			(xy 235.585 75.565) (xy 235.585 78.105)
+			(xy 234.95 75.565) (xy 234.95 78.105)
 		)
 		(stroke
 			(width 0)
@@ -8610,7 +8620,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 78.105) (xy 220.345 78.105)
+			(xy 227.33 78.105) (xy 220.345 78.105)
 		)
 		(stroke
 			(width 0)
@@ -8647,16 +8657,6 @@
 			(type default)
 		)
 		(uuid "582f3ea0-318a-4a8e-b092-5dfd22cfa970")
-	)
-	(wire
-		(pts
-			(xy 50.165 71.755) (xy 50.165 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5889572f-43c2-42cd-bb2f-79b28c9bd5e1")
 	)
 	(wire
 		(pts
@@ -8820,6 +8820,16 @@
 	)
 	(wire
 		(pts
+			(xy 47.625 69.215) (xy 50.165 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d0d15a-22a5-4ef8-ad65-49a3cbd5e289")
+	)
+	(wire
+		(pts
 			(xy 156.21 127.635) (xy 164.465 127.635)
 		)
 		(stroke
@@ -8960,6 +8970,16 @@
 	)
 	(wire
 		(pts
+			(xy 47.625 71.755) (xy 50.165 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d167af3-24d8-4c00-ae41-073fd29e26e9")
+	)
+	(wire
+		(pts
 			(xy 67.945 163.195) (xy 65.405 163.195)
 		)
 		(stroke
@@ -8990,16 +9010,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 65.405) (xy 250.19 65.405)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90aa2ba4-b67f-45a5-a7c3-7635226d0078")
-	)
-	(wire
-		(pts
 			(xy 50.165 48.895) (xy 50.165 51.435)
 		)
 		(stroke
@@ -9007,16 +9017,6 @@
 			(type default)
 		)
 		(uuid "90ddf698-7418-44b0-b4eb-b7c825720059")
-	)
-	(wire
-		(pts
-			(xy 50.165 56.515) (xy 50.165 59.055)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91826e6c-af49-44f0-a9f7-35be1725caa9")
 	)
 	(wire
 		(pts
@@ -9330,6 +9330,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.345 70.485) (xy 242.57 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fab046-adaa-4c6d-9bd2-2a9751da6c27")
+	)
+	(wire
+		(pts
 			(xy 22.225 106.68) (xy 19.685 106.68)
 		)
 		(stroke
@@ -9500,23 +9510,23 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 56.515) (xy 50.165 56.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9a47885-eeb7-41cd-8428-7f9e8c02860b")
-	)
-	(wire
-		(pts
-			(xy 220.345 75.565) (xy 235.585 75.565)
+			(xy 220.345 75.565) (xy 234.95 75.565)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb2b57f2-287e-473c-8693-67b14cc0d916")
+	)
+	(wire
+		(pts
+			(xy 47.625 56.515) (xy 50.165 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5931f3-dd91-4054-9b85-90942674f51b")
 	)
 	(wire
 		(pts
@@ -9570,16 +9580,6 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 69.215) (xy 50.165 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53d6069-020c-43bc-b2b0-e58df8cc00ab")
-	)
-	(wire
-		(pts
 			(xy 107.315 82.55) (xy 98.425 82.55)
 		)
 		(stroke
@@ -9617,6 +9617,16 @@
 			(type default)
 		)
 		(uuid "d9fb5fdc-c11a-43a2-8c05-e550c41b5bdd")
+	)
+	(wire
+		(pts
+			(xy 220.345 65.405) (xy 250.19 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4272a8-4644-41dd-ad92-ee6671ea6031")
 	)
 	(wire
 		(pts
@@ -9660,7 +9670,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 73.025) (xy 220.345 73.025)
+			(xy 220.345 73.025) (xy 234.95 73.025)
 		)
 		(stroke
 			(width 0)
@@ -9757,16 +9767,6 @@
 			(type default)
 		)
 		(uuid "f4f29e42-3ea2-435a-b154-c1a1b81baacb")
-	)
-	(wire
-		(pts
-			(xy 47.625 71.755) (xy 50.165 71.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f569c8db-6f5b-47e2-88b5-29034c172f2e")
 	)
 	(wire
 		(pts
@@ -12457,7 +12457,7 @@
 	)
 	(global_label "CHAMBER TEMP THERM"
 		(shape input)
-		(at 243.205 78.105 0)
+		(at 242.57 78.105 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12467,7 +12467,7 @@
 		)
 		(uuid "b9a051fb-39c3-4fc3-ac15-b5979e18f76e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9614 78.105 0)
+			(at 267.3264 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,7 +13324,7 @@
 		(dnp no)
 		(uuid "043bfcfd-0362-49a5-9866-45a61acbdaf5")
 		(property "Reference" "R22"
-			(at 134.62 118.745 90)
+			(at 134.62 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +13333,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 138.43 118.745 90)
+			(at 138.43 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13366,6 +13366,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 145.415 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 145.415 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 145.415 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 145.415 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 145.415 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13502,6 +13542,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 71.755 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 71.755 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 71.755 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 71.755 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 71.755 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c34852e-c6d3-4cb3-afe8-012eedd82fd2")
 		)
@@ -13610,7 +13690,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "EHT-125-01-S-D:SAMTEC_EHT-125-01-S-D"
+		(property "Footprint" "DuePrint3-Lib:SAMTEC_EHT-125-01-S-D"
 			(at 57.785 155.575 0)
 			(effects
 				(font
@@ -13635,6 +13715,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 57.785 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 57.785 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 57.785 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 57.785 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 57.785 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -13916,6 +14036,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 103.505 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 103.505 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 103.505 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 103.505 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 103.505 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "685b0dc3-72f8-4d76-a48a-40755dbfb6a5")
 		)
@@ -14052,6 +14212,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 93.345 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 93.345 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 93.345 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 93.345 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 93.345 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c6591cc-ae2b-422c-b9a1-05f1ecc9e791")
 		)
@@ -14093,7 +14293,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "EHT-125-01-S-D:SAMTEC_EHT-125-01-S-D"
+		(property "Footprint" "DuePrint3-Lib:SAMTEC_EHT-125-01-S-D"
 			(at 40.005 48.895 0)
 			(effects
 				(font
@@ -14118,6 +14318,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 40.005 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 40.005 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 40.005 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 40.005 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 40.005 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -14423,7 +14663,7 @@
 		(dnp no)
 		(uuid "283f9113-95fd-4b56-9b99-6debb9675f98")
 		(property "Reference" "R23"
-			(at 134.62 121.285 90)
+			(at 134.62 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14432,7 +14672,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 138.43 121.285 90)
+			(at 138.43 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14465,6 +14705,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 145.415 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 145.415 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 145.415 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 145.415 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 145.415 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14668,6 +14948,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 157.48 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 157.48 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14899,7 +15219,7 @@
 		(dnp no)
 		(uuid "37f2d0cd-168b-4a09-8228-d18432860b4b")
 		(property "Reference" "R4"
-			(at 245.745 70.485 90)
+			(at 246.38 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +15228,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 248.285 70.485 90)
+			(at 249.555 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14941,6 +15261,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 246.38 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 246.38 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 246.38 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 246.38 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 246.38 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14985,7 +15345,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 			(at 169.545 114.935 0)
 			(effects
 				(font
@@ -15010,6 +15370,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 169.545 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 169.545 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 169.545 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 169.545 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 169.545 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "12"
@@ -15122,6 +15522,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 120.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 120.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 120.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 120.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 120.65 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15256,6 +15696,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 93.345 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 93.345 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 93.345 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 93.345 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 93.345 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15527,6 +16007,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 105.41 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 105.41 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 105.41 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 105.41 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 105.41 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ec01274-3ebf-4040-aa20-0c3fdae9cc9f")
 		)
@@ -15567,7 +16087,7 @@
 		(dnp no)
 		(uuid "4650eb05-99df-40e5-bbd3-c7db2eba724b")
 		(property "Reference" "R20"
-			(at 134.62 123.825 90)
+			(at 134.62 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15576,7 +16096,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 138.43 123.825 90)
+			(at 138.43 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15609,6 +16129,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 145.415 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 145.415 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 145.415 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 145.415 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 145.415 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15763,6 +16323,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 67.945 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 67.945 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 67.945 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 67.945 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 67.945 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4d58d14-e568-446b-b457-ce1905a26f1f")
 		)
@@ -15780,7 +16380,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.775 78.105 90)
+		(at 231.14 78.105 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15798,7 +16398,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 234.315 80.645 90)
+			(at 234.95 80.645 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15807,7 +16407,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 231.775 76.327 90)
+			(at 231.14 76.327 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15816,7 +16416,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08052K00FKEA/1175669"
-			(at 231.775 78.105 0)
+			(at 231.14 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15825,12 +16425,52 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.775 78.105 0)
+			(at 231.14 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 231.14 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 231.14 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 231.14 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 231.14 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 231.14 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15901,6 +16541,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 146.685 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 146.685 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 146.685 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 146.685 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 146.685 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16062,7 +16742,7 @@
 		(dnp no)
 		(uuid "6360baba-cf29-4ec3-b76c-c4c9459485bc")
 		(property "Reference" "R5"
-			(at 253.365 70.485 90)
+			(at 254 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +16751,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 255.905 70.485 90)
+			(at 257.175 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16104,6 +16784,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 254 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 254 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 254 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 254 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 254 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16310,6 +17030,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4edf75ec-7af5-42e1-a059-91b8e272d8e4")
 		)
@@ -16332,7 +17092,7 @@
 		(dnp no)
 		(uuid "6b1e67bc-d974-4b78-96ca-e219ae567c3e")
 		(property "Reference" "R21"
-			(at 134.62 126.365 90)
+			(at 134.62 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16341,7 +17101,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 138.43 126.365 90)
+			(at 138.43 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16374,6 +17134,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16445,6 +17245,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 103.505 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 103.505 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 103.505 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 103.505 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 103.505 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7b65e9a-f88d-4f94-8365-cb483ec30d31")
 		)
@@ -16485,7 +17325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EHT-110-01-XX-D:EHT-110-01-XX-D"
+		(property "Footprint" "DuePrint3-Lib:EHT-110-01-XX-D"
 			(at 27.305 101.6 0)
 			(effects
 				(font
@@ -16510,6 +17350,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 27.305 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 27.305 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 27.305 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 27.305 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 27.305 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "16"
@@ -16583,7 +17463,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 239.395 78.105 90)
+		(at 238.76 78.105 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16601,7 +17481,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 241.935 80.645 90)
+			(at 242.57 80.645 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16610,7 +17490,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 239.395 76.327 90)
+			(at 238.76 76.327 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16619,7 +17499,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637"
-			(at 239.395 78.105 0)
+			(at 238.76 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,12 +17508,52 @@
 			)
 		)
 		(property "Description" ""
-			(at 239.395 78.105 0)
+			(at 238.76 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 238.76 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 238.76 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 238.76 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 238.76 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 238.76 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16746,7 +17666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 			(at 174.625 117.475 0)
 			(effects
 				(font
@@ -16771,6 +17691,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 174.625 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 174.625 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 174.625 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 174.625 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 174.625 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "12"
@@ -16882,6 +17842,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 40.005 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 40.005 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 40.005 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 40.005 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 40.005 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17037,6 +18037,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 122.555 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 122.555 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 122.555 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 122.555 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 122.555 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17240,6 +18280,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 103.505 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 103.505 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 103.505 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 103.505 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 103.505 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ad048e9-8fea-4592-8a7f-f3ae5b6240d4")
 		)
@@ -17308,6 +18388,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 51.435 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 51.435 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 51.435 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 51.435 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 51.435 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17379,6 +18499,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 103.505 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 103.505 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 103.505 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 103.505 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 103.505 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa2b1917-9470-41e5-abde-d240e4719b37")
 		)
@@ -17446,6 +18606,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 93.345 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 93.345 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 93.345 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 93.345 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 93.345 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17717,6 +18917,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 93.345 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 93.345 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 93.345 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 93.345 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 93.345 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00a72848-3117-4217-b1ab-c749de198c58")
 		)
@@ -17785,6 +19025,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17868,7 +19148,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 145.415 128.27 270)
+		(at 145.415 128.27 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17876,21 +19157,21 @@
 		(dnp no)
 		(uuid "932afb77-3910-4c1e-b834-1434a1df11ed")
 		(property "Reference" "R24"
-			(at 134.62 128.905 90)
+			(at 134.62 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "10k"
-			(at 138.43 128.905 90)
+			(at 138.43 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -17918,6 +19199,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 145.415 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 145.415 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 145.415 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 145.415 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 145.415 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17986,6 +19307,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 209.55 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 209.55 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 209.55 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 209.55 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 209.55 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18240,6 +19601,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 103.505 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 103.505 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 103.505 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 103.505 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 103.505 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b91f701f-cf0f-46ae-960f-6c29778afeef")
 		)
@@ -18334,7 +19735,7 @@
 		(dnp no)
 		(uuid "a3f51577-a911-4014-80b0-6382cf1fcfbb")
 		(property "Reference" "R2"
-			(at 246.38 75.565 90)
+			(at 247.015 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18343,7 +19744,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 248.92 75.565 90)
+			(at 250.19 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18376,6 +19777,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 246.38 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 246.38 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 246.38 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 246.38 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 246.38 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18487,7 +19928,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_SO_AKL:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 51.435 212.09 0)
+			(at 51.435 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18512,6 +19953,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 51.435 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 51.435 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 51.435 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 51.435 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 51.435 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18568,6 +20049,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 133.35 247.015 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18584,7 +20066,7 @@
 			)
 		)
 		(property "Value" "2.54Header-1x3-M"
-			(at 134.62 251.46 0)
+			(at 134.62 252.73 0)
 			(effects
 				(font
 					(size 1 1)
@@ -18592,7 +20074,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 133.35 247.015 0)
 			(effects
 				(font
@@ -18617,6 +20099,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 133.35 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 133.35 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 133.35 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 133.35 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 133.35 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -18689,6 +20211,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 93.345 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 93.345 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 93.345 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 93.345 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 93.345 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18919,7 +20481,7 @@
 		(dnp no)
 		(uuid "b3de203d-ff00-4d8e-a504-00284a19efc8")
 		(property "Reference" "R1"
-			(at 238.76 75.565 90)
+			(at 239.395 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18928,7 +20490,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 241.3 75.565 90)
+			(at 242.57 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18961,6 +20523,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 238.76 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 238.76 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 238.76 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 238.76 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 238.76 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19028,6 +20630,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 105.41 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 105.41 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 105.41 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 105.41 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 105.41 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19114,6 +20756,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19251,6 +20933,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 132.08 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 132.08 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 132.08 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 132.08 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 132.08 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45f10935-f044-4582-b821-8e8cc7aed54a")
 		)
@@ -19319,6 +21041,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa5953bb-6859-42a0-be52-f1683fe7a53d")
 		)
@@ -19333,8 +21095,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x12_Top_Bottom")
-		(at 215.265 62.865 0)
-		(mirror y)
+		(at 212.725 65.405 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19350,7 +21112,7 @@
 			)
 		)
 		(property "Value" "MF3.0-2x12-430452412"
-			(at 213.995 45.72 0)
+			(at 213.36 46.355 0)
 			(effects
 				(font
 					(size 1 1)
@@ -19358,7 +21120,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical"
-			(at 215.265 62.865 0)
+			(at 212.725 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19367,7 +21129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.265 62.865 0)
+			(at 212.725 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19376,12 +21138,52 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.265 62.865 0)
+			(at 212.725 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 212.725 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 212.725 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 212.725 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 212.725 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 212.725 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "23"
@@ -19457,7 +21259,7 @@
 			(uuid "7eb7a1f0-5310-484a-9eca-8f43e3a83a24")
 		)
 		(instances
-			(project ""
+			(project "DuePrint3"
 				(path "/07174f98-a8e3-48d1-a7db-91c6bb414bdf"
 					(reference "J1")
 					(unit 1)
@@ -19583,6 +21385,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 93.345 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 93.345 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 93.345 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 93.345 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 93.345 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19919,6 +21761,46 @@
 				(hide yes)
 			)
 		)
+		(property "Device" ""
+			(at 146.05 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 146.05 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 146.05 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 146.05 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 146.05 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f9c9092-23aa-4d1f-a3ce-8272a270f41f")
 		)
@@ -19986,6 +21868,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 103.505 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 103.505 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 103.505 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 103.505 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 103.505 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20123,6 +22045,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 51.435 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 51.435 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 51.435 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 51.435 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 51.435 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

@@ -3,4 +3,5 @@
   (lib (name "EHT-125-01-S-D")(type "KiCad")(uri "C:/Users/Jared/Downloads/EHT-125-01-S-D")(options "")(descr ""))
   (lib (name "EHT-110-01-XX-D")(type "KiCad")(uri "C:/Users/Jared/Downloads/EHT-110-01-XX-D")(options "")(descr ""))
   (lib (name "Stratasys Adapter")(type "KiCad")(uri "E:/KiCad Projects/Stratasys Adapter")(options "")(descr ""))
+  (lib (name "DuePrint3-Lib")(type "KiCad")(uri "${KIPRJMOD}/DuePrint3-Lib.pretty")(options "")(descr ""))
 )
